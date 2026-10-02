@@ -1,0 +1,41 @@
+{
+  "status": "complete",
+  "started_at": "2026-10-02T08:06:06.207517+00:00",
+  "model": "lp_detection",
+  "weights": "detection/DL/models/LP-detection.pt",
+  "weights_sha256": "b3eb8e10bc85a45880962fb0a2293e1e3fc58cb32b8372688af42bcb4e020ae2",
+  "classes": {
+    "0": "single_number_plate",
+    "1": "double_number_plate"
+  },
+  "project_split": "train",
+  "selected_images": 10,
+  "source_counts": {
+    "cv": 5,
+    "uc3m": 5
+  },
+  "sampling": "source-balanced sample",
+  "seed": 42,
+  "requested_device": "cpu",
+  "imgsz": 640,
+  "confidence_threshold": 0.25,
+  "nms_iou": 0.7,
+  "max_det": 300,
+  "agnostic_nms": false,
+  "half": false,
+  "coordinates": "xyxy in original image pixels",
+  "versions": {
+    "python": "3.9.6",
+    "ultralytics": "8.4.171",
+    "torch": "2.8.0",
+    "opencv": "4.11.0"
+  },
+  "input_sha256": {
+    "images.csv": "4aa1130e8d3528f707889b469eab5424f0ead5d70bb9b6b81e7e7bacde98eb25",
+    "splits.csv": "f3d43f3c033dbb1c7d42dfdf0197843d8418f9052c9c0529d2469960e5ca9e59"
+  },
+  "note": "Inference only. Confidence is not measured accuracy; no ground-truth metrics calculated.",
+  "finished_at": "2026-10-02T08:06:07.926063+00:00",
+  "actual_device": "cpu",
+  "detections": 10
+}

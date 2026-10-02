@@ -1,0 +1,11 @@
+image_path,source,project_split,image_w,image_h,n_detections,class_counts,example_path
+data_raw/cv/Frontal/PXL_20210921_152343867.jpg,cv,train,4032,2268,1,"{""single_number_plate"": 1}",examples/0001_cv_PXL_20210921_152343867.jpg
+data_raw/uc3m/test/01459.jpg,uc3m,train,6960,4640,1,"{""single_number_plate"": 1}",examples/0002_uc3m_01459.jpg
+data_raw/cv/Frontal/3587DCX.jpg,cv,train,4032,2268,1,"{""single_number_plate"": 1}",examples/0003_cv_3587DCX.jpg
+data_raw/uc3m/train/00820.jpg,uc3m,train,5184,3888,1,"{""single_number_plate"": 1}",examples/0004_uc3m_00820.jpg
+data_raw/cv/Lateral/3660CRT.jpg,cv,train,4032,2268,1,"{""single_number_plate"": 1}",examples/0005_cv_3660CRT.jpg
+data_raw/uc3m/train/00493.jpg,uc3m,train,6960,4640,1,"{""double_number_plate"": 1}",examples/0006_uc3m_00493.jpg
+data_raw/cv/Lateral/3340JMF_.jpg,cv,train,4032,2268,1,"{""single_number_plate"": 1}",examples/0007_cv_3340JMF_.jpg
+data_raw/uc3m/train/01085.jpg,uc3m,train,5184,3888,2,"{""single_number_plate"": 1, ""double_number_plate"": 1}",examples/0008_uc3m_01085.jpg
+data_raw/cv/Lateral/1663FLN.jpg,cv,train,4032,2268,1,"{""single_number_plate"": 1}",
+data_raw/uc3m/train/01799.jpg,uc3m,train,6960,4640,0,{},
